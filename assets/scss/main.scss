@@ -1,0 +1,168 @@
+@import "base.global";
+
+body{
+	background: #e0e0e0;
+}
+
+.icon{
+	padding: 5px;
+	border-radius: 50%;
+	color: #fff;
+	background: #cd922e;
+}
+.icon-big{
+	padding: 10px;
+	border-radius: 50%;
+	color: #fff;
+	background: #cd922e;
+	font-size: 20px;
+}
+
+.main{
+	width: 780px;
+	margin: 0 auto;
+	background: #fff;
+	overflow: hidden;
+
+	.com-panel{
+		padding: 20px 10px;
+
+		&.top-line{
+			border-top: 1px solid #4d4e51;
+		}
+
+		.title{
+			margin-bottom: 15px;
+			font-size: 20px;
+
+			span{
+				margin-right: 10px;
+			}
+		}
+
+		.con{
+			padding: 0 0 0 10px;
+
+			&.skill{
+				li{
+					span{
+						display: inline-block;
+						width: 130px;
+					}
+
+					.point{
+						display: inline-block;
+						margin-right: 8px;
+						width: 8px;
+						height: 8px;
+						border-radius: 50%;
+						background: #cd922e;
+
+						&.good{
+							background: #fff;
+						}
+					}
+				}
+			}
+
+			&.edu{
+				li{
+					padding: 10px 0 0 0;
+					font-size: 14px;
+					color: #a1a1a1;
+
+					.basic{
+						.name{
+							margin-right: 30px;
+							font-size: 16px;
+							color: #2c2c2c;
+						}
+					}
+				}
+			}
+
+			&.work{
+				li{
+					padding: 10px 0 0 0;
+					font-size: 14px;
+					color: #a1a1a1;
+
+					.basic{
+						.name{
+							margin-right: 30px;
+							font-size: 16px;
+							color: #2c2c2c;
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	.left{
+		float: left;
+		width: 290px;
+		padding-bottom: 9999px;
+		margin-bottom: -9999px;
+		color: #fff;
+		border-left: 17px solid #cd922e;
+		background: #2e2f31;
+		
+		.person-info{
+			padding: 0 8px;
+
+			.head-img{
+				margin: 40px auto 0;
+				width: 195px;
+				height: 195px;
+				background: #2e2f31;
+				border-radius: 50%;
+				border: 8px solid #cd922e;
+
+				img{
+					margin: 7px;
+					width: 165px;
+					height: 165px;
+					border-radius: 50%;
+				}
+			}
+			
+			.name{
+				margin-top: 25px;
+				text-align: center;
+			}
+			.job{
+				margin-bottom: 25px;
+				display: inline-block;
+				left: 50%;
+	    		transform: translate(50%,0);
+	    		padding: 8px 0 0 0;
+				border-top: 1px solid #fff;
+				font-weight: normal;
+				text-align: center;
+			}
+			.info{
+				border-top: 1px solid #4d4e51;
+				padding: 10px 0;
+
+				.list{
+					li{
+						padding: 5px 0 5px 20px;
+
+						.icon{
+							margin: 0 10px 0 0;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.right{
+		float: right;
+		padding: 10px 30px;
+		width: 490px;
+		color: #2c2c2c;
+	}
+}
+

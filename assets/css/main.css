@@ -1,0 +1,120 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.clearfix {
+  *height: 1%; }
+  .clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden; }
+
+body {
+  background: #e0e0e0; }
+
+.icon {
+  padding: 5px;
+  border-radius: 50%;
+  color: #fff;
+  background: #cd922e; }
+
+.icon-big {
+  padding: 10px;
+  border-radius: 50%;
+  color: #fff;
+  background: #cd922e;
+  font-size: 20px; }
+
+.main {
+  width: 780px;
+  margin: 0 auto;
+  background: #fff;
+  overflow: hidden; }
+  .main .com-panel {
+    padding: 20px 10px; }
+    .main .com-panel.top-line {
+      border-top: 1px solid #4d4e51; }
+    .main .com-panel .title {
+      margin-bottom: 15px;
+      font-size: 20px; }
+      .main .com-panel .title span {
+        margin-right: 10px; }
+    .main .com-panel .con {
+      padding: 0 0 0 10px; }
+      .main .com-panel .con.skill li span {
+        display: inline-block;
+        width: 130px; }
+      .main .com-panel .con.skill li .point {
+        display: inline-block;
+        margin-right: 8px;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: #cd922e; }
+        .main .com-panel .con.skill li .point.good {
+          background: #fff; }
+      .main .com-panel .con.edu li {
+        padding: 10px 0 0 0;
+        font-size: 14px;
+        color: #a1a1a1; }
+        .main .com-panel .con.edu li .basic .name {
+          margin-right: 30px;
+          font-size: 16px;
+          color: #2c2c2c; }
+      .main .com-panel .con.work li {
+        padding: 10px 0 0 0;
+        font-size: 14px;
+        color: #a1a1a1; }
+        .main .com-panel .con.work li .basic .name {
+          margin-right: 30px;
+          font-size: 16px;
+          color: #2c2c2c; }
+  .main .left {
+    float: left;
+    width: 290px;
+    padding-bottom: 9999px;
+    margin-bottom: -9999px;
+    color: #fff;
+    border-left: 17px solid #cd922e;
+    background: #2e2f31; }
+    .main .left .person-info {
+      padding: 0 8px; }
+      .main .left .person-info .head-img {
+        margin: 40px auto 0;
+        width: 195px;
+        height: 195px;
+        background: #2e2f31;
+        border-radius: 50%;
+        border: 8px solid #cd922e; }
+        .main .left .person-info .head-img img {
+          margin: 7px;
+          width: 165px;
+          height: 165px;
+          border-radius: 50%; }
+      .main .left .person-info .name {
+        margin-top: 25px;
+        text-align: center; }
+      .main .left .person-info .job {
+        margin-bottom: 25px;
+        display: inline-block;
+        left: 50%;
+        -webkit-transform: translate(50%, 0);
+                transform: translate(50%, 0);
+        padding: 8px 0 0 0;
+        border-top: 1px solid #fff;
+        font-weight: normal;
+        text-align: center; }
+      .main .left .person-info .info {
+        border-top: 1px solid #4d4e51;
+        padding: 10px 0; }
+        .main .left .person-info .info .list li {
+          padding: 5px 0 5px 20px; }
+          .main .left .person-info .info .list li .icon {
+            margin: 0 10px 0 0; }
+  .main .right {
+    float: right;
+    padding: 10px 30px;
+    width: 490px;
+    color: #2c2c2c; }
